@@ -1,0 +1,12 @@
+
+body{
+    background: whitesmoke url("https://cdn11.bigcommerce.com/s-pp6vink62e/images/stencil/1200x1800/products/262/1649/Perfection_Floor_Natural_Stone_White_Marble2__32038.1504200705.jpg?c=2");
+}
+
+.navbar{
+    border-radius: 0 ;
+}
+
+.navbar-brand{
+    font-family: 'Satisfy' ,cursive ;
+}
