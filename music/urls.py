@@ -19,6 +19,9 @@ urlpatterns = [
 
 # music/album/71/            #delete
    path('album/<int:pk>/delete', views.AlbumDelete.as_view(), name='album-delete' ),
+
+
+    path('register' , views.UserFormView.as_view() , name = 'register'  )
   
    #path('<int:pk>/favorite/', views.favorite, name='favorite' ),
 
